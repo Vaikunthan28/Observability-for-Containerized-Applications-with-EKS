@@ -7,7 +7,7 @@ It’s designed for DevOps Platform Engineers to learn EKS architecture, Kuberne
 
 ## 🧱 Architecture Overview
 
-                                       Internet
+                    Internet
                        │
                 [ ALB Ingress Controller ]
                        │
