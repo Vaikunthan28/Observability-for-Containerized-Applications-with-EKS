@@ -12,5 +12,4 @@ It’s designed for DevOps Platform Engineers to learn EKS architecture, Kuberne
                 [ ALB Ingress Controller ]
                        │
      ┌─────────────────┴─────────────────┐
-     │                                   │
-Frontend Service                   Backend Service
+    Frontend Service                   Backend Service
