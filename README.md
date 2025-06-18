@@ -15,18 +15,4 @@ It’s designed for DevOps Platform Engineers to learn EKS architecture, Kuberne
      │                                   │
 Frontend Service                   Backend Service
 
-(Node.js App on port 3000) (Node.js App on port 5000)
-│ │
-Pods (Frontend) Pods (Backend)
-│ │
-└────────┐ ┌──────────┘
-▼ ▼
-┌────────────────────────────────────┐
-│ Fluent Bit (log collection) │
-└────────────┬──────────────┬────────┘
-▼ ▼
-[ Loki ] [ Prometheus ]
-│
-┌─────▼─────┐
-│ Grafana │
-└───────────┘
+<pre> ``` Internet | [ ALB Ingress Controller ] | ┌─────────────────┴─────────────────┐ | | Frontend Service Backend Service (Node.js App on port 3000) (Node.js App on port 5000) | | Pods (Frontend) Pods (Backend) | | └────────────┬──────────────────────┘ | Fluent Bit (log collection) | ┌─────────────┴──────────────┐ | | [ Loki ] [ Prometheus ] | [ Grafana ] ``` </pre>
