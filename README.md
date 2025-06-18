@@ -7,14 +7,14 @@ It’s designed for DevOps Platform Engineers to learn EKS architecture, Kuberne
 
 ## 🧱 Architecture Overview
 
-                          Internet
+                     Internet
                              │
                   [ ALB Ingress Controller ]
                              │
          ┌───────────────────┴───────────────────┐
          │                                       │
-  Frontend Service                         Backend Service
-(Node.js App on port 3000)         (Node.js App on port 5000)
+    Frontend Service                         Backend Service
+    (Node.js App on port 3000)         (Node.js App on port 5000)
          │                                       │
      Pods (Frontend)                       Pods (Backend)
          │                                       │
@@ -31,4 +31,3 @@ It’s designed for DevOps Platform Engineers to learn EKS architecture, Kuberne
                                                ▼
                                         ┌──────────┐
                                         │ Grafana  │
-                                        └──────────┘
