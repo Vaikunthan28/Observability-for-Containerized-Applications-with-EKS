@@ -62,7 +62,6 @@ I used a simple **frontend-backend Node.js app**:
 
 ## 📁 Folder Structure
 eks-observability-app/
-│
 ├── app/
 │ ├── frontend/ # Node.js frontend (port 3000)
 │ └── backend/ # Node.js backend (port 5000)
@@ -83,5 +82,5 @@ eks-observability-app/
 ├── screenshots/
 │ └── grafana-dashboard.png
 │
-├── README.md
+└── README.md
 
